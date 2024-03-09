@@ -245,11 +245,3 @@
     -webkit-transition: all .3s linear;
     -moz-transition: all .3s linear;
 }
-.article-imgs:hover{
-    background: #2196F3;
-    color: #FFF;
-    position: relative;
-    transition: all .3s linear;
-    -webkit-transition: all .3s linear;
-    -moz-transition: all .3s linear;
-}
