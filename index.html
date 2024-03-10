@@ -10,35 +10,34 @@
     <link href="https://fonts.googleapis.com/css2?family=OpenSans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body class="body">
+    <header class="main-page-header">
+        <a href="#" class="Logo"><span class="Web">Web</span><span class="Studio">Studio</span></a>
+
+        <nav class="site-navigation">
+            <ul class="lies-style">
+                <li><a href="" class="header-titles">Студія</a></li>
+                <li><a href="file:///C:/Users/%D0%90%D1%80%D0%B8%D1%88%D0%B0/Desktop/Html%20project/portfolio.html" class="header-titles">Портфоліо</a></li>
+                <li><a href="" class="header-titles">Контакти</a></li>
+            </ul>
+        </nav>
+
+
+        <ul class="lies-style">
+            <li><a href="mailto:info@devstudio.com" class="header-othres-malto">info@devstudio.com</a></li>
+            <li><a href="teil:+380961111111" class="header-othres-tel">+38 096 111 11 11</a></li>
+        </ul>
+
+    </header>
+
     <main>
-        <header class="main-page-header">
-            <a href="#" class="Logo"><span class="Web">Web</span><span class="Studio">Studio</span></a>
-
-            <nav class="site-navigation">
-                <ul class="lies-style">
-                    <li><a href="" class="header-titles">Студія</a></li>
-                    <li><a href="file:///C:/Users/%D0%90%D1%80%D0%B8%D1%88%D0%B0/Desktop/Html%20project/portfolio.html" class="header-titles">Портфоліо</a></li>
-                    <li><a href="" class="header-titles">Контакти</a></li>
-                </ul>
-            </nav>
-
-            <nav class="site-navigation">
-                <ul class="lies-style">
-                    <li><a href="mailto:info@devstudio.com" class="header-othres-malto">info@devstudio.com</a></li>
-                    <li><a href="teil:+380961111111" class="header-othres-tel">+38 096 111 11 11</a></li>
-                </ul>
-            </nav>
-        </header>
-
     <section class="main-page-section">
-        <h1 class="main-title">Ефективні рішення для <br> вашого бізнесу</h1>
+        <h1 class="main-title">Ефективні рішення для вашого бізнесу</h1>
         <button class="main-page-button" type="button">Замовити послугу</button>
     </section>
 
     <section class="article">
         <ul class="article-style">
             <li class="about-us-section-text">
-                <img src="img/groups/Group1.jpg" alt="" width="270" height="120"> 
                 <h3 class="article-title">УВАГА ДО ДЕТАЛЕЙ</h3>
 
                 <p class="article-text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
@@ -46,7 +45,6 @@
             </li>
                     
             <li class="about-us-section-text">
-                <img src="img/groups/Group2.jpg" alt="" width="270" height="120">
                 <h3 class="article-title">ПУНКТУАЛЬНІСТЬ</h3>
 
                 <p class="article-text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
@@ -54,7 +52,6 @@
             </li>
 
             <li class="about-us-section-text">
-                <img src="img/groups/Group3.jpg" alt="" width="270" height="120">
                 <h3 class="article-title">ПЛАНУВАННЯ</h3>
 
                 <p class="article-text">Так само консультація з широким активом значною мірою зумовлює.</p> 
@@ -62,7 +59,6 @@
             </li>
 
             <li class="about-us-section-text">
-                <img src="img/groups/Group4.jpg" alt="" width="270" height="120">
                 <h3 class="article-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
 
                 <p class="article-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
@@ -70,16 +66,15 @@
         </ul> 
     </section>
 
-    <article class="article-2">
-        <h2 class="second-header">Чим ми займаємося</h2>
-        <div class="second-article-imgs">
-            <ul class="Lies-imgs">
-                <li><img src="img/Things/box1.jpg" alt="" class="what-we-do-img" width="370" height="294"></li>
-                <li><img src="img/Things/box2.jpg" alt="" class="what-we-do-img-1" width="370" height="294"></li>
-                <li><img src="img/Things/box3.jpg" alt="" class="what-we-do-img-1" width="370" height="294"></li>
-            </ul> 
-        </div>
-    </article>
+    <section class="article-2">
+
+    <h2 class="second-header">Чим ми займаємося</h2>
+        <ul class="Lies-imgs">
+            <li><img src="img/Things/box1.jpg" alt="" class="what-we-do-img" width="370" height="294"></li>
+            <li><img src="img/Things/box2.jpg" alt="" class="what-we-do-img-1" width="370" height="294"></li>
+            <li><img src="img/Things/box3.jpg" alt="" class="what-we-do-img-1" width="370" height="294"></li>
+        </ul> 
+    </section>
 
         <section>
             <h2 class="our-team-title">Наша команда</h2>
@@ -90,10 +85,10 @@
                         <img src="img/img.jpg" alt="" class="our-team" width="270" height="260">
                     </div>
 
-                    <article class="third-article-imgs-desc">
+                    <section class="third-article-imgs-desc">
                         <h3 class="name">Ігор Дем'яненко</h3>
                         <p class="profession">Product Designer</p>
-                    </article>
+                    </section>
                 </li>
 
                     
@@ -102,10 +97,10 @@
                         <img src="img/img(1).jpg" alt="" class="our-team" width="270" height="260">
                     </div>
 
-                    <article class="third-article-imgs-desc">
+                    <section class="third-article-imgs-desc">
                         <h3 class="name">Ольга Рєпіна</h3>
                         <p class="profession">Frontend Developer</p>
-                    </article>
+                    </section>
                 </li>
 
 
@@ -114,10 +109,10 @@
                         <img src="img/img.png(2).jpg" alt="" class="our-team" width="270" height="260">
                     </div>
 
-                    <article class="third-article-imgs-desc">
+                    <section class="third-article-imgs-desc">
                         <h3 class="name">Микола Тарасов</h3>
                         <p class="profession">Marketing</p>
-                    </article>
+                    </section>
                 </li>
  
 
@@ -126,10 +121,10 @@
                         <img src="img/(3).jpg" alt="" class="our-team" width="270" height="260">
                     </div>
                             
-                    <article class="third-article-imgs-desc">
+                    <section class="third-article-imgs-desc">
                         <h3 class="name">Михайло Єрмаков</h3>
                         <p class="profession">UI Designer</p>
-                    </article> 
+                    </section> 
                 </li>
             </ul>
         </section>
@@ -141,7 +136,7 @@
         <address class="address"><p class="address">м. Київ, пр-т Лесі Українки, 26</p>
 
         <ul>
-            <li class="li-footer"><a href="malto:info@devstudio.com" class="footer-links">info@devstudio.com</a></li>
+            <li class="li-footer"><a href="mailto:info@devstudio.com" class="footer-links">info@devstudio.com</a></li>
             <li class="li-footer"><a href="tel:+380961111111" class="footer-links">+38 096 111 11 11</a></li>
         </ul>
        </address>
