@@ -1,16 +1,34 @@
 .body{
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
+}
+.Logo{ 
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+}
+/* ===== COLORS ===== */
+:root{
+    --primary-text-color: #757575;
+    --primary-bg-color: #ffffff;
+    --secondary-bg-color: #f5f4fa;
+    --footer-hero-bg-color: #2f303a;
+    --titel-link-color: #212121;
+    --secondary-link-color: #757575;
+    --accent-color: #2196f3;
+    --logo-up-color: #000000;
+    --logo-down-color: #ffffff;
+    --address-color: #ffffff;
+    --address-secondary-color: rgba(255, 255, 255, 0.6);
 }
 .header-titles{
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--titel-link-color);
 }
 .header-titles:hover{
     text-decoration: none;
-    color: #2196F3;
+    color: var(--accent-color);
     font-weight: 500;
     font-size: 14px; 
     letter-spacing: 0.02em;
@@ -20,7 +38,7 @@
     height: 600px;
     width: 1600px;
     justify-content: center;
-    background-image: url('file:///c%3A/Users/%D0%90%D1%80%D0%B8%D1%88%D0%B0/Desktop/Html%20project/img/%D0%A8%D0%B0%D0%BF%D0%BA%D0%B0%20%282%29.png');
+    background-color: var(--footer-hero-bg-color);
     margin-left: 150px;
 }
 .main-title{
@@ -30,7 +48,7 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
     text-align: center;
-    color: #fff;
+    color: var(--address-color);
     align-content: center;
     padding-top: 150px;
 }
@@ -39,10 +57,10 @@
     width: 216px;
     height: 50px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background: #2196f3;   
+    background: var(--accent-color);   
     text-align: center;
-    font-family: Roboto;
-    color: #fff;
+    font-family: "Roboto", sans-serif;
+    color: var(--address-color);
     font-weight: 700;
     font-size: 16px;
     line-height: 187%;
@@ -57,7 +75,7 @@
     font-size: 14px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
+    color: var(--titel-link-color);
 }
 .article-style{
     list-style: none;
@@ -67,7 +85,7 @@
     font-size: 14px;
     line-height: 171%;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--primary-text-color);
     width: 270px;
     height: 72px;
     display: flex;
@@ -77,7 +95,7 @@
     font-size: 36px;
     letter-spacing: 0.03em;
     text-align: center;
-    color: #212121;
+    color: var(--titel-link-color);
     margin-bottom: 75px;
 }
 .our-team-title{
@@ -85,8 +103,8 @@
     font-size: 36px;
     letter-spacing: 0.03em;
     text-align: center;
-    color: #212121;
-    background: #F5F4FA;
+    color: var(--titel-link-color);
+    background: var(--secondary-bg-color);
     padding-bottom: 20px;
     margin-bottom: 0;
     padding-top: 75px;
@@ -96,17 +114,17 @@
     font-size: 16px;
     letter-spacing: 0.03em;
     text-align: center;
-    color: #212121;
+    color: var(--titel-link-color);
 }
 .profession{
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.03em;
     text-align: center;
-    color: #757575;
+    color: var(--primary-text-color);
 }
 .site-footer{
-    background: #2F303A;
+    background: var(--footer-hero-bg-color);
 }
 .footer-img{
     margin-top: 30px;
@@ -117,7 +135,8 @@
     font-size: 14px;
     line-height: 171%;
     letter-spacing: 0.03em;
-    color: #fff;
+    color: var(--logo-down-color);
+    font-style: normal;
 }
 .footer-links{
     text-decoration: none;
@@ -125,10 +144,10 @@
     font-size: 14px;
     line-height: 171%;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--address-secondary-color);
 }
 .li-footer{
-    color: #2F303A;
+    color: var(--footer-hero-bg-color);
 }
 .header-othres-malto{
     text-decoration: none;
@@ -136,7 +155,7 @@
     font-size: 14px;
     letter-spacing: 0.02em;
     padding-left: 140px;
-    color: #757575;
+    color: var(--primary-text-color);
     padding-left: 100px;
 }
 .header-othres-malto:hover{
@@ -145,7 +164,7 @@
     font-size: 14px;
     letter-spacing: 0.02em;
     padding-left: 140px;
-    color: #2196F3;
+    color: var(--accent-color);
     padding-left: 100px;
 }
 .header-othres-tel{
@@ -153,7 +172,7 @@
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--primary-text-color);
     padding-left: 40px;
 }
 .header-othres-tel:hover{
@@ -161,26 +180,26 @@
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.02em;
-    color: #2196F3;
+    color: var(--accent-color);
     padding-left: 40px;
 }
 .header-othres{
-    color: white;
+    color: var(--logo-down-color);
 }
 .third-article-imgs{
-    background: #F5F4FA;
+    background: var(--secondary-bg-color);
     margin-top: -60px;
     padding-bottom: 75px;
 }
 .div-images{
-    background: #fff;
-    color: #F5F4FA;
+    background: var(--logo-down-color);
+    color: var(--secondary-bg-color);
 }
 .div-images-0{
-    color: #F5F4FA;
+    color: var(--secondary-bg-color);
 }
 .header-text-lies{
-    color: #fff;
+    color: var(--logo-down-color);
 }
 .what-we-do-img{
     margin-left: 350px;
@@ -220,20 +239,20 @@
     padding-bottom: px;
 }
 .div-images{
-    background: #FFF;
+    background: var(--address-color);
     margin-left: 30px;
 }
 .flexer{
-    background: #F5F4FA;
-    color: #F5F4FA;
+    background: var(--secondary-bg-color);
+    color: var(--secondary-bg-color);
 }
 .div-images-0{
-    background: #FFF;
+    background: var(--address-color);
     margin-left: 322px;
 }
 .about-us-section-text{
     padding-left: 15px;
-    color: #F5F4FA;
+    color: var(--secondary-bg-color);
     text-align: left;
 }
 .address{
@@ -250,7 +269,7 @@
     font-size: 36px;
     letter-spacing: 0.03em;
     text-align: center;
-    color: #212121;
+    color: var(--titel-link-color);
     padding-top: 75px;
 }
 .client-imgs{
@@ -291,14 +310,14 @@
     font-weight: 700;
     font-size: 26px;
     letter-spacing: 0.03em;
-    color: #2196f3;
+    color: var(--accent-color);
     text-decoration: none;
 }
 .Studio{
     font-weight: 700;
     font-size: 26px;
     letter-spacing: 0.03em;
-    color: #222222; 
+    color: var(--logo-up-color); 
     text-decoration: none;
 }
 .Logo{
@@ -313,14 +332,14 @@
     font-weight: 700;
     font-size: 26px;
     letter-spacing: 0.03em;
-    color: #FFFFFF; 
+    color: var(--primary-bg-color); 
     text-decoration: none;
 }
 .Web-footer{
     font-weight: 700;
     font-size: 26px;
     letter-spacing: 0.03em;
-    color: #2196f3;
+    color: var(--accent-color);
     text-decoration: none;
 }
 .address{
@@ -330,5 +349,5 @@
     list-style: none;
 }
 .blue{
-    color: #2196F3;
+    color: var(--accent-color);
 }

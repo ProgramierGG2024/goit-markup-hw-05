@@ -1,19 +1,37 @@
 .site-body{
-    font-family: Roboto, 'sans serif';
+    font-family: "Roboto", sans-serif;
+}
+/* ===== LOGO ===== */
+.Logo{ 
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+}
+/* ===== COLORS ===== */
+:root{
+    --primary-text-color: #757575;
+    --primary-bg-color: #ffffff;
+    --secondary-bg-color: #f5f4fa;
+    --footer-hero-bg-color: #2f303a;
+    --titel-link-color: #212121;
+    --secondary-link-color: #757575;
+    --accent-color: #2196f3;
+    --logo-up-color: #000000;
+    --logo-down-color: #ffffff;
+    --address-color: #ffffff;
+    --address-secondary-color: rgba(255, 255, 255, 0.6);
 }
 .header-othres-tel{
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--secondary-link-color);
 }
 .header-othres-malto{
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.02em;
-    color: #001aff;
 }
 .main-page-buttons{
     width: 116px;
@@ -30,24 +48,24 @@
     border: none;
     border-radius: 7px;
     margin-left: 10px;
-    background: #F5F4FA;
+    background: var(--secondary-bg-color);
 }
 .img-header{
     font-weight: 700;
     font-size: 18px;
     line-height: 200%;
     letter-spacing: 0.06em;
-    color: #212121;
+    color: var(--titel-link-color);
 }
 .p-img-text{
     font-weight: 400;
     font-size: 16px;
     line-height: 187%;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--primary-text-color);
 }
 .site-footer{
-    background: #2F303A;
+    background: var(--footer-hero-bg-color);
 }
 .footer-img{
     margin-top: 30px;
@@ -60,6 +78,7 @@
     letter-spacing: 0.03em;
     color: #fff;
     margin-left: 60px;
+    font-style: normal;
 }
 .footer-links{
     text-decoration: none;
@@ -67,20 +86,20 @@
     font-size: 14px;
     line-height: 171%;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--address-secondary-color);
 }
 .li-footer{
-    color: #2F303A;
+    color: var(--footer-hero-bg-color);
 }
 .site-footer-text{
     margin-left: 85px;
 }
 .header-text-lies{
-    color: #fff;
+    color: var(--logo-down-color);
 }
 .header-titles-2{
     text-decoration: none;
-    color: rgb(100, 100, 255);
+    color: var(--accent-color);
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.02em;
@@ -98,14 +117,14 @@
     font-size: 14px;
     letter-spacing: 0.02em;
     padding-left: 140px;
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .header-othres-tel{
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--primary-text-color);
     padding-left: 40px;
 }
 .main-page-header-img-logotype{
@@ -152,7 +171,7 @@
     font-size: 14px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #fff;
+    color: var(--logo-down-color);
 }
 .address{
     text-decoration: none;
@@ -166,7 +185,7 @@
     line-height: 162%;
     letter-spacing: 0.03em;
     text-align: center;
-    color: #212121;
+    color: var(--titel-link-color);
     font-family: Roboto;
     border: none;
     border-radius: 7px;
@@ -176,8 +195,8 @@
     -moz-transition: all .3s linear; 	
 }
 .main-page-buttons:hover{
-    color: #fff;
-    background: #2196F3;
+    color: var(--logo-down-color);
+    background: var(--accent-color);
     transition: all .3s linear;
     -webkit-transition: all .3s linear;
     -moz-transition: all .3s linear;
@@ -186,14 +205,14 @@
     font-weight: 700;
     font-size: 26px;
     letter-spacing: 0.03em;
-    color: #2196f3;
+    color: var(--accent-color);
     text-decoration: none;
 }
 .Studio{
     font-weight: 700;
     font-size: 26px;
     letter-spacing: 0.03em;
-    color: #222222; 
+    color: var(--logo-up-color); 
     text-decoration: none;
 }
 .Logo{
@@ -205,14 +224,14 @@
     font-weight: 700;
     font-size: 26px;
     letter-spacing: 0.03em;
-    color: #FFFFFF; 
+    color: var(--logo-down-color); 
     text-decoration: none;
 }
 .Web-footer{
     font-weight: 700;
     font-size: 26px;
     letter-spacing: 0.03em;
-    color: #2196f3;
+    color: var(--accent-color);
     text-decoration: none;
 }
 .site-navigation{
@@ -224,7 +243,7 @@
     font-size: 14px;
     letter-spacing: 0.02em;
     padding-left: 140px;
-    color: #757575;
+    color: var(--primary-text-color);
     padding-left: 100px;
 }
 .header-othres-malto:hover{
@@ -233,7 +252,7 @@
     font-size: 14px;
     letter-spacing: 0.02em;
     padding-left: 140px;
-    color: #2196F3;
+    color: var(--accent-color);
     padding-left: 100px;
 }
 .header-othres-tel{
@@ -241,7 +260,7 @@
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--primary-text-color);
     padding-left: 40px;
 }
 .header-othres-tel:hover{
@@ -249,7 +268,7 @@
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.02em;
-    color: #2196F3;
+    color: var(--accent-color);
     padding-left: 40px;
 }
 .header-titles{
@@ -260,7 +279,7 @@
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--titel-link-color);
     padding-left: 45px;
 }
 .header-titles:hover{
@@ -271,7 +290,7 @@
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.02em;
-    color: #2196F3;
+    color: var(--accent-color);
     padding-left: 45px;
 }
 .lies-style{
@@ -284,8 +303,44 @@
     padding-bottom: 25px;
 }
 .blue{
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .links{
     text-decoration: none;
+}
+.flexbox-displayer{
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.88;
+}
+  
+.flexbox-displayer h3{
+    margin: 0;
+    margin-bottom: 4px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    text-align: start;
+}
+  
+.flexbox-displayer:not(:nth-child(3n + 3)){
+    margin-right: 30px;
+}
+  
+.flexbox-displayer:not(:nth-last-child(-n + 3)){
+    margin-bottom: 30px;
+}
+  
+.flexbox-displayer img{
+    display: block;
+}
+  
+.flexbox-displayer a{
+    color: inherit;
+}
+  
+.flexbox-displayer p{
+    display: inline-block;
+    margin: 0;
 }
