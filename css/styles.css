@@ -1,9 +1,17 @@
-.body{
+.container{
     font-family: "Roboto", sans-serif;
+    text-align: center;
+    width: 1200px;
+    margin: 0 auto;
 }
+/* ===== LOGO ===== */
 .Logo{ 
     font-family: "Raleway", sans-serif;
     font-weight: 700;
+}
+/* ===== SECTION ===== */
+.section{
+    padding-bottom: 94px;
 }
 /* ===== COLORS ===== */
 :root{
@@ -19,6 +27,7 @@
     --address-color: #ffffff;
     --address-secondary-color: rgba(255, 255, 255, 0.6);
 }
+/* ===== NAVIGATION ===== */
 .header-titles{
     text-decoration: none;
     font-weight: 500;
@@ -34,12 +43,15 @@
     letter-spacing: 0.02em;
     padding-left: 40px;
 }
+/* ===== HERO SECTION ===== */
 .main-page-section{
     height: 600px;
     width: 1600px;
     justify-content: center;
     background-color: var(--footer-hero-bg-color);
     margin-left: 150px;
+    justify-content: space-between;
+    align-items: center;
 }
 .main-title{
     font-weight: 900;
@@ -67,7 +79,6 @@
     letter-spacing: 0.06em;
     text-align: center;
     cursor: pointer;
-    margin-left: 675px;
     margin-bottom: 700px;
 }
 .article-title{
@@ -125,6 +136,7 @@
 }
 .site-footer{
     background: var(--footer-hero-bg-color);
+    text-align: justify;
 }
 .footer-img{
     margin-top: 30px;
@@ -205,9 +217,9 @@
     margin-left: 350px;
 }
 .site-footer-text{
-    margin-left: 85px;
     padding-top: 25px;
     padding-bottom: 25px;
+    padding-left: 0;
 }
 .article-title{
     margin-bottom: 10px;
@@ -224,6 +236,7 @@
     box-sizing: border-box;
     padding-top: 20px;
     padding-left: 375px;
+    border-bottom: 1px solid #eeeeee;
 }
 .header-titles{
     padding-left: 40px;
@@ -292,9 +305,6 @@
 .site-navigation{
     display: flex;
 }
-.article-2{
-    margin-bottom: 100px;
-}
 .Lies-imgs{
     display: flex;
     list-style: none;
@@ -350,4 +360,8 @@
 }
 .blue{
     color: var(--accent-color);
+}
+.griding{
+    display: grid;
+    display: flex;
 }

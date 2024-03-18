@@ -110,6 +110,7 @@
     box-sizing: border-box;
     padding-top: 20px;
     padding-left: 375px;
+    border-bottom: 1px solid #eeeeee;
 }
 .header-othres-malto{
     text-decoration: none;
@@ -312,6 +313,7 @@
     color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.88;
+    display: inline-block;
 }
   
 .flexbox-displayer h3{
@@ -343,4 +345,10 @@
 .flexbox-displayer p{
     display: inline-block;
     margin: 0;
+}
+.information{
+    padding: 20px 24px;
+    border-right: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
 }
