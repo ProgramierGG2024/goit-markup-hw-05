@@ -46,7 +46,7 @@
 /* ===== HERO SECTION ===== */
 .main-page-section{
     height: 600px;
-    width: 100cm;
+    width: 100%;
     justify-content: center;
     background-color: var(--footer-hero-bg-color);
     justify-content: space-between;
@@ -355,3 +355,4 @@
     display: grid;
     display: flex;
 }
+
