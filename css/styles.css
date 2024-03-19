@@ -46,10 +46,9 @@
 /* ===== HERO SECTION ===== */
 .main-page-section{
     height: 600px;
-    width: 1600px;
+    width: 100cm;
     justify-content: center;
     background-color: var(--footer-hero-bg-color);
-    margin-left: 150px;
     justify-content: space-between;
     align-items: center;
 }
@@ -79,7 +78,6 @@
     letter-spacing: 0.06em;
     text-align: center;
     cursor: pointer;
-    margin-bottom: 700px;
 }
 .article-title{
     font-weight: 700;
@@ -90,6 +88,7 @@
 }
 .article-style{
     list-style: none;
+    margin-left: auto;
 }
 .article-text{
     font-weight: 400;
@@ -166,7 +165,6 @@
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.02em;
-    padding-left: 140px;
     color: var(--primary-text-color);
     padding-left: 100px;
 }
@@ -213,9 +211,6 @@
 .header-text-lies{
     color: var(--logo-down-color);
 }
-.what-we-do-img{
-    margin-left: 350px;
-}
 .site-footer-text{
     padding-top: 25px;
     padding-bottom: 25px;
@@ -228,14 +223,12 @@
     display: flex;
     box-sizing: border-box;
     text-align: center;
-    margin-left: 370px;
     margin-top: 50px;
 }
 .main-page-header{
     display: flex;
     box-sizing: border-box;
     padding-top: 20px;
-    padding-left: 375px;
     border-bottom: 1px solid #eeeeee;
 }
 .header-titles{
@@ -249,7 +242,6 @@
     display: flex;
     box-sizing: border-box;
     padding-top: 100px;
-    padding-bottom: px;
 }
 .div-images{
     background: var(--address-color);
@@ -261,7 +253,6 @@
 }
 .div-images-0{
     background: var(--address-color);
-    margin-left: 322px;
 }
 .about-us-section-text{
     padding-left: 15px;
@@ -291,7 +282,6 @@
     padding-top: 30px;
 }
 .client-imgs-0{
-    padding-left: 380px;
     padding-bottom: 85px;
     padding-top: 30px;
 }
