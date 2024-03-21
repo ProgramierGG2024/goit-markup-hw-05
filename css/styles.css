@@ -1,6 +1,8 @@
-.container{
+.body{
     font-family: "Roboto", sans-serif;
     text-align: center;
+}
+.container{
     width: 1200px;
     margin: 0 auto;
 }
@@ -46,11 +48,11 @@
 /* ===== HERO SECTION ===== */
 .main-page-section{
     height: 600px;
-    width: 100%;
-    justify-content: center;
+    width: 1600px;
     background-color: var(--footer-hero-bg-color);
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
+    margin-right: auto;
+    margin-left: auto;
 }
 .main-title{
     font-weight: 900;
@@ -63,7 +65,7 @@
     align-content: center;
     padding-top: 150px;
 }
-.main-page-button{
+.main-page-button{ 
     border-radius: 4px;
     width: 216px;
     height: 50px;

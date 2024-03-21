@@ -9,9 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"/>
 </head> 
-<body class="container">
+<body class="body">
 <!-- ===== HEADER ===== -->
-    <header class="main-page-header">
+    <header class="main-page-header container">
         <a href="#" class="Logo"><span class="Web">Web</span><span class="Studio">Studio</span></a> 
 
         <nav class="site-navigation">
@@ -27,18 +27,19 @@
             <li><a href="mailto:info@devstudio.com" class="header-othres-malto">info@devstudio.com</a></li>
             <li><a href="tel:+380961111111" class="header-othres-tel">+38 096 111 11 11</a></li>
         </ul> 
-
     </header>
 
     <!-- ===== HERO SECTION ===== -->
     <main>
     <section class="main-page-section">
-        <h1 class="main-title">Ефективні рішення для вашого бізнесу</h1>
-        <button class="main-page-button" type="button">Замовити послугу</button>
+        <div class="hero-section-text container">
+            <h1 class="main-title">Ефективні рішення для вашого бізнесу</h1>
+            <button class="main-page-button" type="button">Замовити послугу</button>
+        </div>
     </section>
 
     <!-- ===== ABOUT US ===== -->
-    <section class="article section">
+    <section class="article section container">
         <ul class="article-style">
             <li class="about-us-section-text">
                 <h3 class="article-title">УВАГА ДО ДЕТАЛЕЙ</h3>
@@ -70,10 +71,10 @@
     </section>
     <!-- ===== WHAT WE DO ===== -->
 
-    <section class="article-2 section">
+    <section class="article-2 section container">
+        <h2 class="second-header">Чим ми займаємося</h2>
 
-    <h2 class="second-header">Чим ми займаємося</h2>
-        <ul class="Lies-imgs">
+        <ul class="Lies-imgs container">
             <li><img src="img/Things/box1.jpg" alt="" class="what-we-do-img" width="370" height="294"></li>
             <li><img src="img/Things/box2.jpg" alt="" class="what-we-do-img-1" width="370" height="294"></li>
             <li><img src="img/Things/box3.jpg" alt="" class="what-we-do-img-1" width="370" height="294"></li>
@@ -81,7 +82,7 @@
     </section>
 
     <!-- ===== OUR TEAM ===== -->
-        <section class="section">
+        <section class="section container">
             <h2 class="our-team-title">Наша команда</h2>
             
             <ul class="third-article-imgs griding">
@@ -113,14 +114,14 @@
                     <img src="img/(3).jpg" alt="" class="our-team" width="270" height="260">
                             
                     <h3 class="name">Михайло Єрмаков</h3>
-                    <p class="profession">UI Designer</p>
+                    <p class="profession">UI Designer</p> 
                 </li>
             </ul>
         </section>
     </main>
 <!-- ===== FOOTER ===== -->
 <footer class="site-footer">
-    <div class="site-footer-text">
+    <div class="site-footer-text container">
         <a href="#" class="Logo"><span class="Web-footer">Web</span><span class="Studio-footer">Studio</span></a>
 
         <address class="address"><p class="address">м. Київ, пр-т Лесі Українки, 26</p>
