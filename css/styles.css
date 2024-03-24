@@ -2,14 +2,18 @@
     font-family: "Roboto", sans-serif;
     text-align: center;
 }
+/* ===== CONTAINER ===== */
 .container{
     width: 1200px;
     margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 /* ===== LOGO ===== */
 .Logo{ 
     font-family: "Raleway", sans-serif;
     font-weight: 700;
+    text-decoration: none;
 }
 /* ===== SECTION ===== */
 .section{
@@ -43,35 +47,45 @@
     font-weight: 500;
     font-size: 14px; 
     letter-spacing: 0.02em;
-    padding-left: 40px;
 }
+.displayer{
+    display: flex;
+    align-items: center
+}
+/* ===== MODERN NORMALIZER ===== */
+@import 'node_modules/modern-normalize/modern-normalize.css';
 /* ===== HERO SECTION ===== */
 .main-page-section{
-    height: 600px;
     width: 1600px;
     background-color: var(--footer-hero-bg-color);
-    justify-content: space-around;
     margin-right: auto;
     margin-left: auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.lies-style-text{
+    margin-left: 10px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .main-title{
-    font-weight: 900;
+    font-weight: 700;
     font-size: 44px;
-    line-height: 136%;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
+    line-height: 132%;
+    letter-spacing: 0.02em;
     text-align: center;
-    color: var(--address-color);
-    align-content: center;
-    padding-top: 150px;
+    margin: 0 auto 48px;
+    width: 696px;
+    height: 120px;
+    color: var(--logo-down-color);
 }
 .main-page-button{ 
     border-radius: 4px;
     width: 216px;
     height: 50px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: var(--accent-color);   
     text-align: center;
+    border: none;
     font-family: "Roboto", sans-serif;
     color: var(--address-color);
     font-weight: 700;
@@ -80,6 +94,7 @@
     letter-spacing: 0.06em;
     text-align: center;
     cursor: pointer;
+    margin-top: 20px;
 }
 .article-title{
     font-weight: 700;
@@ -168,16 +183,13 @@
     font-size: 14px;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
-    padding-left: 100px;
 }
 .header-othres-malto:hover{
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.02em;
-    padding-left: 140px;
     color: var(--accent-color);
-    padding-left: 100px;
 }
 .header-othres-tel{
     text-decoration: none;
@@ -213,6 +225,10 @@
 .header-text-lies{
     color: var(--logo-down-color);
 }
+.contacts-info{
+    margin-left: auto;
+
+}
 .site-footer-text{
     padding-top: 25px;
     padding-bottom: 25px;
@@ -223,14 +239,10 @@
 }
 .article-style{
     display: flex;
-    box-sizing: border-box;
     text-align: center;
     margin-top: 50px;
 }
 .main-page-header{
-    display: flex;
-    box-sizing: border-box;
-    padding-top: 20px;
     border-bottom: 1px solid #eeeeee;
 }
 .header-titles{
@@ -238,11 +250,9 @@
 }
 .div-img-and-text{
     display: flex;
-    box-sizing: border-box;
 }
 .third-article-imgs{
     display: flex;
-    box-sizing: border-box;
     padding-top: 100px;
 }
 .div-images{
@@ -289,13 +299,14 @@
 }
 .footer-article-a-links{
     flex-direction: row;
-    box-sizing: border-box;
 }
 .site-footer{
     justify-content: space-around;
 }
 .site-navigation{
     display: flex;
+    padding-left: 30px;
+    margin: 0;
 }
 .Lies-imgs{
     display: flex;
@@ -307,6 +318,7 @@
 .lies-style{
     list-style: none;
     display: flex;
+    margin: 0 auto;
 }
 .Web{
     font-weight: 700;
@@ -321,11 +333,6 @@
     letter-spacing: 0.03em;
     color: var(--logo-up-color); 
     text-decoration: none;
-}
-.Logo{
-    text-decoration: none;
-    padding-left: 100px;
-    padding-top: 8px;
 }
 .main-page-header{
     text-align: center;
@@ -343,9 +350,6 @@
     letter-spacing: 0.03em;
     color: var(--accent-color);
     text-decoration: none;
-}
-.address{
-    padding-left: 60px;
 }
 .third-article-imgs{
     list-style: none;
