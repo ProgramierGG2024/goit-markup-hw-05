@@ -44,7 +44,6 @@
     padding-top: 32px;
     padding-bottom: 32px;
     display: block;
-    margin-left: 36px;
 }
 .header-titles:hover{
     text-decoration: none;
@@ -55,7 +54,6 @@
     padding-top: 32px;
     padding-bottom: 32px;
     display: block;
-    margin-left: 36px;
 }
 .displayer{
     display: flex;
@@ -70,13 +68,18 @@
     padding-top: 200px;
     padding-bottom: 200px;
 }
+.lies-style-text{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 36px;
+}
 .main-title{
     font-weight: 800;
     font-size: 44px;
     line-height: 132%;
     letter-spacing: 0.02em;
     text-align: center;
-    margin: 0 auto 48px;
+    margin: 0 auto 30px;
     width: 696px;
     color: var(--logo-down-color);
 }
@@ -96,12 +99,17 @@
     text-align: center;
     cursor: pointer;
 }
+.article-2{
+    padding-bottom: 94px;
+}
 .article-title{
     font-weight: 700;
     font-size: 14px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--titel-link-color);
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .article-style{
     list-style: none;
@@ -114,8 +122,9 @@
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
     width: 270px;
-    height: 72px;
     display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .second-header{
     font-weight: 700;
@@ -123,7 +132,8 @@
     letter-spacing: 0.03em;
     text-align: center;
     color: var(--titel-link-color);
-    margin-bottom: 75px;
+    margin-bottom: 45px;
+    margin-top: 0;
 }
 .our-team-title{
     font-weight: 700;
@@ -183,7 +193,6 @@
     font-size: 14px;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
-    margin-left: 36px;
 }
 .header-othres-malto:hover{
     text-decoration: none;
@@ -198,6 +207,8 @@
     font-size: 14px;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
+}
+.mail-and-tel{
     margin-left: 36px;
 }
 .header-othres-tel:hover{
@@ -273,6 +284,7 @@
     color: var(--secondary-bg-color);
     text-align: left;
     margin-left: 15px;
+    width: 270px;
 }
 .address{
     text-decoration: none;
@@ -308,19 +320,26 @@
 }
 .site-navigation{
     display: flex;
-    margin-left: 30px;
+    margin-left: 50px;
 }
 .Lies-imgs{
-    display: flex;
     list-style: none;
+    display: flex;
+    padding-left: 0;
+    padding-right: 0;
 }
-.what-we-do-img-1{
-    padding-left: 20px;
+.what-we-do-img{
+    display: block;
 }
 .lies-style{
     list-style: none;
     display: flex;
     padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.images{
+    margin-left: 15px;
 }
 .Web{
     font-weight: 700;
