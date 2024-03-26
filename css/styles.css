@@ -322,14 +322,17 @@
     display: flex;
     margin-left: 50px;
 }
-.Lies-imgs{
+.Lies-img{
     list-style: none;
     display: flex;
     padding-left: 0;
     padding-right: 0;
 }
 .what-we-do-img{
-    display: block;
+    display: flex;
+}
+.none-list-style{
+    list-style: none;
 }
 .lies-style{
     list-style: none;
@@ -340,6 +343,7 @@
 }
 .images{
     margin-left: 15px;
+    list-style: none;
 }
 .Web{
     font-weight: 700;
