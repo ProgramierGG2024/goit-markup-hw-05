@@ -71,7 +71,7 @@
 .lies-style-text{
     margin-top: 0;
     margin-bottom: 0;
-    margin-left: 36px;
+    margin-left: 50px;
 }
 .main-title{
     font-weight: 800;
@@ -82,6 +82,10 @@
     margin: 0 auto 30px;
     width: 696px;
     color: var(--logo-down-color);
+}
+.our-team{
+    background-color: var(--secondary-bg-color);
+    padding-top: 0;
 }
 .main-page-button{ 
     border-radius: 4px;
@@ -142,9 +146,10 @@
     text-align: center;
     color: var(--titel-link-color);
     background: var(--secondary-bg-color);
-    padding-bottom: 20px;
-    margin-bottom: 0;
-    padding-top: 75px;
+    margin-top: 0;
+    margin-bottom: 50px;
+    padding: 0;
+    padding-top: 45px;
 }
 .name{
     font-weight: 500;
@@ -152,6 +157,7 @@
     letter-spacing: 0.03em;
     text-align: center;
     color: var(--titel-link-color);
+    margin-bottom: 10px;
 }
 .profession{
     font-weight: 400;
@@ -159,6 +165,8 @@
     letter-spacing: 0.03em;
     text-align: center;
     color: var(--primary-text-color);
+    margin-top: 0;
+    margin-bottom: 15px;
 }
 .site-footer{
     background: var(--footer-hero-bg-color);
@@ -209,7 +217,7 @@
     color: var(--primary-text-color);
 }
 .mail-and-tel{
-    margin-left: 36px;
+    margin-left: 50px;
 }
 .header-othres-tel:hover{
     text-decoration: none;
@@ -223,12 +231,12 @@
 }
 .third-article-imgs{
     background: var(--secondary-bg-color);
-    margin-top: -60px;
-    padding-bottom: 75px;
+    margin: 0;
 }
 .div-images{
     background: var(--logo-down-color);
     color: var(--secondary-bg-color);
+    margin-left: 30px;
 }
 .div-images-0{
     color: var(--secondary-bg-color);
@@ -283,7 +291,12 @@
 .about-us-section-text{
     color: var(--secondary-bg-color);
     text-align: left;
-    margin-left: 15px;
+    margin-left: 30px;
+    width: 270px;
+}
+.first-li{
+    color: var(--secondary-bg-color);
+    text-align: left;
     width: 270px;
 }
 .address{
@@ -308,6 +321,9 @@
     padding-bottom: 85px;
     padding-top: 30px;
 }
+.margin-0{
+    margin-left: 0;
+}
 .client-imgs-0{
     padding-bottom: 85px;
     padding-top: 30px;
@@ -320,13 +336,14 @@
 }
 .site-navigation{
     display: flex;
-    margin-left: 50px;
+    margin-left: 120px;
 }
 .Lies-img{
     list-style: none;
     display: flex;
     padding-left: 0;
     padding-right: 0;
+    margin: 0;
 }
 .what-we-do-img{
     display: flex;
@@ -342,7 +359,7 @@
     margin-bottom: 0;
 }
 .images{
-    margin-left: 15px;
+    margin-left: 30px;
     list-style: none;
 }
 .Web{
@@ -381,9 +398,5 @@
 }
 .blue{
     color: var(--accent-color);
-}
-.griding{
-    display: grid;
-    display: flex;
 }
 
