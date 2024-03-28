@@ -1,6 +1,5 @@
 .body{
     font-family: "Roboto", sans-serif;
-    text-align: center;
 }
 /* ===== CONTAINER ===== */
 .container{
@@ -92,7 +91,6 @@
     width: 216px;
     height: 50px;
     background: var(--accent-color);   
-    text-align: center;
     border: none;
     font-family: "Roboto", sans-serif;
     color: var(--address-color);
@@ -102,6 +100,7 @@
     letter-spacing: 0.06em;
     text-align: center;
     cursor: pointer;
+    margin-left: 470px;
 }
 .article-2{
     padding-bottom: 94px;
@@ -149,7 +148,10 @@
     margin-top: 0;
     margin-bottom: 50px;
     padding: 0;
-    padding-top: 45px;
+}
+.people-info{
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .name{
     font-weight: 500;
@@ -158,6 +160,7 @@
     text-align: center;
     color: var(--titel-link-color);
     margin-bottom: 10px;
+    margin-top: 0;
 }
 .profession{
     font-weight: 400;
@@ -166,11 +169,19 @@
     text-align: center;
     color: var(--primary-text-color);
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 0;
+}
+.list{
+    margin: 0;
 }
 .site-footer{
     background: var(--footer-hero-bg-color);
-    text-align: justify;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.address-p{
+    margin-bottom: 9px;
+    padding: 0;
 }
 .footer-img{
     margin-top: 30px;
@@ -183,6 +194,7 @@
     letter-spacing: 0.03em;
     color: var(--logo-down-color);
     font-style: normal;
+    margin-top: 20px;
 }
 .footer-links{
     text-decoration: none;
@@ -192,8 +204,12 @@
     letter-spacing: 0.03em;
     color: var(--address-secondary-color);
 }
+li{list-style: none;}
 .li-footer{
-    color: var(--footer-hero-bg-color);
+    margin-left: 0;
+}
+.marginer{
+    margin-bottom: 5px;
 }
 .header-othres-malto{
     text-decoration: none;
@@ -275,7 +291,6 @@
 }
 .third-article-imgs{
     display: flex;
-    padding-top: 100px;
 }
 .div-images{
     background: var(--address-color);
@@ -336,7 +351,7 @@
 }
 .site-navigation{
     display: flex;
-    margin-left: 120px;
+    margin-left: 95px;
 }
 .Lies-img{
     list-style: none;
@@ -346,7 +361,7 @@
     margin: 0;
 }
 .what-we-do-img{
-    display: flex;
+    display: block;
 }
 .none-list-style{
     list-style: none;
