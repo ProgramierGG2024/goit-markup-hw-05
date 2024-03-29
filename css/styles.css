@@ -84,7 +84,7 @@
 }
 .our-team{
     background-color: var(--secondary-bg-color);
-    padding-top: 0;
+    padding-top: 94px;
 }
 .main-page-button{ 
     border-radius: 4px;
@@ -129,6 +129,9 @@
     margin-top: 0;
     margin-bottom: 0;
 }
+.our-team-img{
+    display: block;
+}
 .second-header{
     font-weight: 700;
     font-size: 36px;
@@ -172,16 +175,17 @@
     margin-bottom: 0;
 }
 .list{
+    padding-left: 0;
     margin: 0;
 }
 .site-footer{
     background: var(--footer-hero-bg-color);
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .address-p{
     margin-bottom: 9px;
-    padding: 0;
+    margin-top: 0;
 }
 .footer-img{
     margin-top: 30px;
@@ -248,6 +252,7 @@ li{list-style: none;}
 .third-article-imgs{
     background: var(--secondary-bg-color);
     margin: 0;
+    padding-left: 0;
 }
 .div-images{
     background: var(--logo-down-color);

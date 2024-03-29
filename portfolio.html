@@ -3,31 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>WebStudio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="./css/portfolio-styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" 
+    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 <body class="site-body">
 <!-- ===== HEADER ===== -->
-    <header class="main-page-header container">
+    <header class="main-page-header">
+        <div class="container displayer">
+
         <a href="#" class="Logo"><span class="Web">Web</span><span class="Studio">Studio</span></a> 
 
         <nav class="site-navigation">
-            <ul class="lies-style">
-                <li><a href="./index.html" class="header-titles">Студія</a></li>
-                <li><a href="#" class="header-titles blue">Портфоліо</a></li>
-                <li><a href="#" class="header-titles">Контакти</a></li>
+            <ul class="lies-style default">
+                <li class="#"><a href="./index.html" class="header-titles">Студія</a></li>
+                <li class="lies-style-text"><a href="#" class="header-titles blue">Портфоліо</a></li>
+                <li class="lies-style-text"><a href="#" class="header-titles">Контакти</a></li>
             </ul>
         </nav>
 
 
-        <ul class="lies-style">
-            <li><a href="mailto:info@devstudio.com" class="header-othres-malto">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111" class="header-othres-tel">+38 096 111 11 11</a></li> 
+        <ul class="lies-style contacts-info default">
+            <li class="#"><a href="mailto:info@devstudio.com" class="header-othres-malto">info@devstudio.com</a></li>
+            <li class="mail-and-tel"><a href="tel:+380961111111" class="header-othres-tel">+38 096 111 11 11</a></li> 
         </ul>
+
+        </div>
     </header>
 
     <main>
@@ -146,13 +151,15 @@
     </main>
 <!-- ===== FOOTER ===== -->  
 <footer class="site-footer">
-    <div class="footer-text container">
+    <div class="container">
+
         <a href="#" class="Logo"><span class="Web-footer">Web</span><span class="Studio-footer">Studio</span></a> 
+
         <address class="address">
             
-            <p class="address">м. Київ, пр-т Лесі Українки, 26</p>
+            <p class="address-p">м. Київ, пр-т Лесі Українки, 26</p>
 
-            <ul>
+            <ul class="list">
                 <li class="li-footer"><a href="mailto:info@devstudio.com" class="footer-links">info@devstudio.com</a></li>
                 <li class="li-footer"><a href="tel:+380961111111" class="footer-links">+38 096 111 11 11</a></li>
             </ul>
