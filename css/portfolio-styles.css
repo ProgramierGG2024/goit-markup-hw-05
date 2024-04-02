@@ -4,6 +4,8 @@
 .container{
     width: 1200px;
     margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 /* ===== LOGO ===== */
 .Logo{ 
@@ -15,6 +17,7 @@
 /* ===== SECTION ===== */
 .section{
     padding-bottom: 94px;
+    padding-top: 94px;
 }
 /* ===== COLORS ===== */
 :root{
@@ -44,8 +47,6 @@
     letter-spacing: 0.02em;
 }
 .main-page-buttons{
-    width: 116px;
-    height: 34px;
     cursor: pointer;
     font-weight: 500;
     font-size: 16px;
@@ -57,8 +58,10 @@
     --second-family: "Raleway", sans-serif;
     border: none;
     border-radius: 7px;
-    margin-left: 10px;
     background: var(--secondary-bg-color);
+}
+.buttons-list-li{
+    margin-left: 10px;
 }
 .img-header{
     font-weight: 700;
@@ -130,14 +133,13 @@ li{list-style: none;}
     letter-spacing: 0.02em;
     padding-left: 40px;
 }
+/* ===== HEADER ===== */
 .main-page-header{
     border-bottom: 1px solid #eeeeee;
-    text-align: center;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    height: 80px;
 }
 .header-othres-malto{
-    text-decoration: none;
+    text-decoration: none; 
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.02em;
@@ -156,7 +158,7 @@ li{list-style: none;}
     margin-left: 120px;
 }
 .main-page-buttons-section{
-    margin-top: 80px;
+    margin-top: 20px;
     list-style: none;
     display: flex;
 }
@@ -178,12 +180,11 @@ li{list-style: none;}
     text-decoration: none;
 }
 .main-page-article{
-    padding-top: 50px;
-    padding-bottom: 80px;
     list-style: none;
+    width: 1270px;
 }
 .flexbox-displayer{
-    margin-left: 10px;
+    margin-left: 1px;
 }
 .footer-social-media-links{
     display: flex;
@@ -317,6 +318,9 @@ li{list-style: none;}
     margin-top: 0;
     margin-bottom: 0;
 }
+.main-page-buttons-section{
+    margin-bottom: 50px;
+}
 .contacts-info{
     margin-left: auto;
     padding: 0;
@@ -329,6 +333,8 @@ li{list-style: none;}
 .displayer{
     display: flex;
     align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .footer-text{
     padding-left: 85px;
@@ -342,11 +348,6 @@ li{list-style: none;}
     text-decoration: none;
 }
 ul{margin: 0; padding: 0;} 
-.main{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
 .flexbox-displayer{
     color: var(--primary-text-color);
     font-size: 16px;
@@ -381,7 +382,6 @@ ul{margin: 0; padding: 0;}
 }
   
 .flexbox-displayer p{
-    display: inline-block;
     margin: 0;
 }
 .information{
