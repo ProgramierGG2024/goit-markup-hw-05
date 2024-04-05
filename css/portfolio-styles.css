@@ -158,9 +158,9 @@ li{list-style: none;}
     margin-left: 120px;
 }
 .main-page-buttons-section{
-    margin-top: 20px;
     list-style: none;
     display: flex;
+    margin-left: 0;
 }
 .article-imgs{
     display: flex;
@@ -179,9 +179,14 @@ li{list-style: none;}
     list-style: none;
     text-decoration: none;
 }
+.btn-1{
+    padding: 6px 22px;
+}
 .main-page-article{
     list-style: none;
-    width: 1270px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .flexbox-displayer{
     margin-left: 1px;
@@ -200,18 +205,17 @@ li{list-style: none;}
     text-decoration: none;
 }
 .main-page-buttons{
-    width: 116px;
-    height: 34px;
     cursor: pointer;
     font-weight: 500;
+    padding: 6px 22px;
     font-size: 16px;
     line-height: 162%;
     letter-spacing: 0.03em;
     text-align: center;
     color: var(--titel-link-color);
-    font-family: Roboto;
+    font-family: 'Roboto';
     border: none;
-    border-radius: 7px;
+    border-radius: 4px;
     margin-left: 10px;
     transition: all .3s linear;
     -webkit-transition: all .3s linear;
@@ -352,7 +356,6 @@ ul{margin: 0; padding: 0;}
     color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.88;
-    display: inline-block;
     margin-left: 0;
 }
 .flexbox-displayer h3{
