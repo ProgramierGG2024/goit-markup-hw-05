@@ -58,10 +58,39 @@
     display: flex;
     align-items: center;
 }
+.icon{
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+.clients-title{
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #212121;
+}
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+.icon-smartphone {
+    width: 0.587890625em;
+}
+.icon-smartphone{
+    width: 0.587890625em;
+}
 /* ===== HERO SECTION ===== */
 .main-page-section{
     width: 1600px;
-    background-color: var(--footer-hero-bg-color);
+    background-image: url('file:///c%3A/Users/%D0%90%D1%80%D0%B8%D1%88%D0%B0/Desktop/Html%20project%20%E2%80%94%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/img/%D0%A8%D0%B0%D0%BF%D0%BA%D0%B0%20%282%29.png');
     margin-right: auto;
     margin-left: auto;
     padding-top: 200px;
