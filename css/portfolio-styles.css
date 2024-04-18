@@ -357,6 +357,12 @@ ul{margin: 0; padding: 0;}
     line-height: 1.88;
     margin-left: 0;
 }
+.flexbox-displayer:hover{
+    box-shadow: 10px 10px 8px 2px rgba(0, 0, 0, 0.3);
+    transition: all 3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+}
 .flexbox-displayer h3{
     margin: 0;
     margin-bottom: 4px;

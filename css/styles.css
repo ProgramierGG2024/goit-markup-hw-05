@@ -87,7 +87,7 @@
 /* ===== HERO SECTION ===== */
 .main-page-section{
     width: 1600px;
-    background-image: url('file:///C:/Users/%D0%90%D1%80%D0%B8%D1%88%D0%B0/Downloads/background.jpg');
+    background-image: url('../img/background.jpg');
     margin-right: auto;
     margin-left: auto;
     padding-top: 200px;
@@ -238,8 +238,30 @@ li{list-style: none;}
 .li-footer{
     margin-left: 0;
 }
+.envelope{
+    width: 16px;
+    height: 12px;
+}
+.icon{
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+.icon-group {
+    width: 0.8720703125em;
+}
+.header-icons{
+    margin-right: 8px;
+}
 .marginer{
     margin-bottom: 5px;
+}
+.tele{
+    width: 10px;
+    height: 16px;
 }
 .header-othres-malto{
     text-decoration: none;
@@ -247,6 +269,7 @@ li{list-style: none;}
     font-size: 14px;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
+    display: flex;
 }
 .header-othres-malto:hover{
     text-decoration: none;
@@ -284,12 +307,34 @@ li{list-style: none;}
     background: var(--logo-down-color);
     color: var(--secondary-bg-color);
     margin-left: 30px;
+    box-shadow: 10px 10px 8px 2px rgba(0, 0, 0, 0.3)
 }
 .div-images-0{
     color: var(--secondary-bg-color);
 }
 .header-text-lies{
     color: var(--logo-down-color);
+}
+.header-icon:hover{
+    background-color: var(--accent-color);
+    transition: all 3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+}
+.header-othres-tel{
+    display: flex;
+    padding: 0;
+}
+.icon{
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+.icon-envelope {
+    width: 1.3330078125em;
 }
 .contacts-info{
     margin-left: auto;
