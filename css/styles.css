@@ -238,15 +238,28 @@ li{list-style: none;}
 .li-footer{
     margin-left: 0;
 }
-.envelope{
+.envelope-header{
     width: 16px;
     height: 12px;
+}
+.envelope:hover{
+    fill: #2196f3;
+}
+/*
+|==================|
+|  ICON SVG        |
+|==================|
+*/
+.header-icons-style:hover{
+    fill: var(--accent-color);
+    transition: all 3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
 }
 .icon{
     display: inline-block;
     width: 1em;
     height: 1em;
-    stroke-width: 0;
     stroke: currentColor;
     fill: currentColor;
 }
@@ -329,7 +342,6 @@ li{list-style: none;}
     display: inline-block;
     width: 1em;
     height: 1em;
-    stroke-width: 0;
     stroke: currentColor;
     fill: currentColor;
 }
