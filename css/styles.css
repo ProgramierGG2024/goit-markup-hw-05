@@ -245,6 +245,12 @@ li{list-style: none;}
 .envelope:hover{
     fill: #2196f3;
 }
+.icon-group {
+    width: 0.8720703125em;
+}
+.icon-Object {
+    width: 1.0712890625em;
+}
 /*
 |==================|
 |  ICON SVG        |
@@ -404,6 +410,9 @@ li{list-style: none;}
 }
 .address{
     text-decoration: none;
+}
+.clients-list{
+    display: flex;
 }
 .footer-social-media-links-imgs{
     padding-left: 15px;
