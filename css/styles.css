@@ -243,7 +243,38 @@ li{list-style: none;}
     height: 12px;
 }
 .envelope:hover{
-    fill: #2196f3;
+    fill: #2196f3;  
+}
+.clients-item{
+    border: 1.25px solid #AFB1B8;
+    width: 170px;
+    height: 92px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.clients-item:hover{
+    border: 1.25px solid #2196f3;
+    width: 170px;
+    height: 92px;
+    border-radius: 5px;
+    transition: all 3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    cursor: pointer;
+}
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
+  .icon-Logo {
+    width: 1.7666015625em;
+  }
+.clients-list{
+    gap: 30px;
 }
 /*
 |==================|
