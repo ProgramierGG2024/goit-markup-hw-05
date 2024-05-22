@@ -245,6 +245,10 @@ li{list-style: none;}
 .envelope:hover{
     fill: #2196f3;  
 }
+.sizing{
+    width: 40px;
+    height: 46px;
+}
 .clients-item{
     border: 1.25px solid #AFB1B8;
     width: 170px;
@@ -262,17 +266,14 @@ li{list-style: none;}
     -moz-transition: all .3s linear;
     cursor: pointer;
 }
-.icon {
+.icon{
     display: inline-block;
     width: 1em;
     height: 1em;
     stroke-width: 0;
     stroke: currentColor;
     fill: currentColor;
-  }
-  .icon-Logo {
-    width: 1.7666015625em;
-  }
+}
 .clients-list{
     gap: 30px;
 }
@@ -351,7 +352,7 @@ li{list-style: none;}
     background: var(--logo-down-color);
     color: var(--secondary-bg-color);
     margin-left: 30px;
-    box-shadow: 10px 10px 8px 2px rgba(0, 0, 0, 0.3)
+    border-radius: 2%;
 }
 .div-images-0{
     color: var(--secondary-bg-color);
@@ -359,22 +360,138 @@ li{list-style: none;}
 .header-text-lies{
     color: var(--logo-down-color);
 }
-.header-icon:hover{
-    background-color: var(--accent-color);
+.header-icons:hover{
     transition: all 3s linear;
     -webkit-transition: all .3s linear;
     -moz-transition: all .3s linear;
+}
+.clients-href > svg{
+    fill: #AFB1B8;
+}
+.clients-href > svg:hover{
+    fill: #2196f3;
 }
 .header-othres-tel{
     display: flex;
     padding: 0;
 }
-.icon{
-    display: inline-block;
-    width: 1em;
-    height: 1em;
+.icon-client{
+    fill: #AFB1B8;
+}
+.icon-client:hover{
+    fill: var(--accent-color);
+}
+.social-icon{
+    width: 22px;
+    height: 22px;
+    fill: #AFB1B8;
+}
+.social-icon:hover{
+    fill: #ffffff;
+}
+.social-icon-footer{
+    width: 20px;
+    height: 20px;
+}
+.footer-content{
+    display: flex;
+    gap: 30px;
+}
+.social-list{
+    gap: 10px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.social-item-footer:hover{
+    background-color: var(--accent-color);
+}
+.social-item-footer{
+    background-color: rgba(255,255,255,.1);
+    transition: all 3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+}
+.social-item-footer:hover .social-icon,
+.social-item-footer:focus .social-icon{
+    fill: var(--address-color);
+}
+.social-item:hover .social-icon,
+.social-item:focus .social-icon{
+    fill: var(--address-color);
+}
+.footer-title{
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0;
+    margin-left: 45px;
+}
+
+.social-item-footer{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+.social-item{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+.social-item:hover,
+.social-item:focus{
+    background: var(--accent-color);
+    transition: all 3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+}
+.icon-client{
+    width: 106px;
+    height: 60px;
+    fill: #AFB1B8;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+.article-title{
+    margin-top: 30px;
+}
+.icon-Vector{
+    width: 70px;
+    height: 70px;
+    margin-left: 100px;
+    margin-top: 25px;
+}
+.background{
+    background-color: var(--secondary-bg-color);
+    width: 270px;
+    height: 120px;
+}
+.use{
+    fill: var(--accent-color);
     stroke: currentColor;
-    fill: currentColor;
+    display: inline-block;
+    transition: fill 3s ease;
+    -webkit-transition: fill .3s ease;
+    -moz-transition: fill .3s ease;
 }
 .icon-envelope {
     width: 1.3330078125em;
@@ -414,6 +531,7 @@ li{list-style: none;}
 .div-images{
     background: var(--address-color);
     margin-left: 30px;
+    box-shadow: 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
 }
 .flexer{
     background: var(--secondary-bg-color);
@@ -438,12 +556,6 @@ li{list-style: none;}
 }
 .clients-list{
     display: flex;
-}
-.footer-social-media-links-imgs{
-    padding-left: 15px;
-}
-.footer-social-media-links-imgs-0{
-    padding-left: 0px;
 }
 .clients-title{
     font-weight: 700;
