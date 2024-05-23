@@ -387,6 +387,13 @@ li{list-style: none;}
 .social-item-footer:hover{
     background-color: var(--accent-color);
 }
+.clients-item:hover .icon-client,
+.clients-item:focus .icon-client{
+    fill: var(--accent-color);
+    transition: all 3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+}
 .social-item-footer{
     background-color: rgba(255,255,255,.1);
     transition: all 3s linear;
