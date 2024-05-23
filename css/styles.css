@@ -58,28 +58,13 @@
     display: flex;
     align-items: center;
 }
-.icon{
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    stroke-width: 0;
-    stroke: currentColor;
-    fill: currentColor;
-}
+
 .clients-title{
     font-weight: 700;
     font-size: 36px;
     letter-spacing: 0.03em;
     text-align: center;
     color: #212121;
-}
-.icon{
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    stroke-width: 0;
-    stroke: currentColor;
-    fill: currentColor;
 }
 .icon-smartphone {
     width: 0.587890625em;
@@ -365,12 +350,6 @@ li{list-style: none;}
     -webkit-transition: all .3s linear;
     -moz-transition: all .3s linear;
 }
-.clients-href > svg{
-    fill: #AFB1B8;
-}
-.clients-href > svg:hover{
-    fill: #2196f3;
-}
 .header-othres-tel{
     display: flex;
     padding: 0;
@@ -402,7 +381,9 @@ li{list-style: none;}
     margin-top: 20px;
     display: flex;
 }
-
+.footer-colors{
+    gap: 10px;
+}
 .social-item-footer:hover{
     background-color: var(--accent-color);
 }
@@ -480,18 +461,16 @@ li{list-style: none;}
     margin-left: 100px;
     margin-top: 25px;
 }
+.effects{
+    fill: #AFB1B8;
+}
+.effects:hover{
+    fill: var(--accent-color);
+}
 .background{
     background-color: var(--secondary-bg-color);
     width: 270px;
     height: 120px;
-}
-.use{
-    fill: var(--accent-color);
-    stroke: currentColor;
-    display: inline-block;
-    transition: fill 3s ease;
-    -webkit-transition: fill .3s ease;
-    -moz-transition: fill .3s ease;
 }
 .icon-envelope {
     width: 1.3330078125em;
