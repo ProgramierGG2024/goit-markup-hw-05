@@ -67,7 +67,8 @@
     color: #212121;
 }
 .icon-smartphone {
-    width: 0.587890625em;
+    width: 10px;
+    height: 16px;
 }
 /* ===== HERO SECTION ===== */
 .main-page-section{
@@ -227,7 +228,7 @@ li{list-style: none;}
     width: 16px;
     height: 12px;
 }
-.envelope:hover{
+.envelope:hover, .envelope:focus{
     fill: #2196f3;  
 }
 .sizing{
@@ -240,6 +241,12 @@ li{list-style: none;}
     height: 92px;
     border-radius: 5px;
     cursor: pointer;
+}
+.icon-planning{
+    width: 70px;
+    height: 70px;
+    margin-left: 100px;
+    margin-top: 25px;
 }
 .clients-item:hover{
     border: 1.25px solid #2196f3;
