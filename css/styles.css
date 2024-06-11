@@ -66,7 +66,7 @@
     text-align: center;
     color: #212121;
 }
-.icon-smartphone {
+.icon-smartphone{
     width: 10px;
     height: 16px;
 }
@@ -375,6 +375,9 @@ li{list-style: none;}
 .social-icon:hover{
     fill: #ffffff;
 }
+.social-icon:focus{
+    fill: #ffffff;
+}
 .social-icon-footer{
     width: 20px;
     height: 20px;
@@ -472,8 +475,12 @@ li{list-style: none;}
 .icon-Vector{
     width: 70px;
     height: 70px;
-    margin-left: 100px;
-    margin-top: 25px;
+}
+.background{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -ms-flex-align: center;
 }
 .effects{
     fill: #AFB1B8;
@@ -487,7 +494,8 @@ li{list-style: none;}
     height: 120px;
 }
 .icon-envelope {
-    width: 1.3330078125em;
+    width: 16px;
+    height: 12px;
 }
 .contacts-info{
     margin-left: auto;

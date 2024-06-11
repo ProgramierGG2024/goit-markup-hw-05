@@ -14,6 +14,12 @@
     text-decoration: none;
     padding-left: 0;
 }
+.header-icons:hover{
+    fill: var(--accent-color);
+}
+.header-icons:focus{
+    fill: var(--accent-color);
+}
 /* ===== SECTION ===== */
 .section{
     padding-bottom: 94px;
@@ -357,6 +363,18 @@ li{list-style: none;}
     margin-top: 20px;
     display: flex;
     margin-left: 35px;
+}
+.header-icons {
+    margin-right: 8px;
+}
+
+.icon-smartphone{
+    width: 10px;
+    height: 16px;
+}
+.icon-envelope {
+    width: 16px;
+    height: 12px;
 }
 .clients-item:hover .icon-client,
 .clients-item:focus .icon-client{
